@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Scenes/Moving_the_player.unity
+  isLoaded: 1
+  isActive: 1
