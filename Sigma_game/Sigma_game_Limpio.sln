@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma_game_Limpio", "Assembly-CSharp.csproj", "{35642FAF-2E5D-A8EC-E3DF-3EFDC513B3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma_game_Limpio", "Assembly-CSharp-Editor.csproj", "{EBDE9BDC-9962-2C7C-86C9-1AE6F1F81606}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35642FAF-2E5D-A8EC-E3DF-3EFDC513B3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35642FAF-2E5D-A8EC-E3DF-3EFDC513B3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35642FAF-2E5D-A8EC-E3DF-3EFDC513B3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35642FAF-2E5D-A8EC-E3DF-3EFDC513B3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDE9BDC-9962-2C7C-86C9-1AE6F1F81606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDE9BDC-9962-2C7C-86C9-1AE6F1F81606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDE9BDC-9962-2C7C-86C9-1AE6F1F81606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDE9BDC-9962-2C7C-86C9-1AE6F1F81606}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

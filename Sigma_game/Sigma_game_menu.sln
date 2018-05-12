@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma_game_menu", "Sigma_game_menu.csproj", "{984EB092-4885-D871-E34B-0DCE7271C68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma_game_menu.Editor", "Sigma_game_menu.Editor.csproj", "{AF036D92-44A4-569E-FFC0-56B30E52C699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984EB092-4885-D871-E34B-0DCE7271C68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984EB092-4885-D871-E34B-0DCE7271C68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984EB092-4885-D871-E34B-0DCE7271C68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984EB092-4885-D871-E34B-0DCE7271C68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF036D92-44A4-569E-FFC0-56B30E52C699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF036D92-44A4-569E-FFC0-56B30E52C699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF036D92-44A4-569E-FFC0-56B30E52C699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF036D92-44A4-569E-FFC0-56B30E52C699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

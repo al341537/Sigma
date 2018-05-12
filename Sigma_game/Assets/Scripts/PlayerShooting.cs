@@ -4,21 +4,33 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
+    public GameObject bulletPrefab;
+    public Transform bulletSpawn;
+    public float speed = 30f;
+    public float timeBetweenBullets = 0.3f;
 
-    public float shotSpeed = 1.5f;
+    float timer;
 
-    private Rigidbody m_rigidbody;
-
-    void Awake()
+    private void FixedUpdate()
     {
-        m_rigidbody.GetComponent<Rigidbody>();
-        m_rigidbody.velocity = transform.forward * shotSpeed;
+        timer += Time.deltaTime;
+
+        if (Input.GetButton("Fire1") && timer >= timeBetweenBullets)
+        {
+            Fire();
+        }
     }
 
-   /* void Start()
+    void Fire()
     {
-        m_rigidbody.GetComponent<Rigidbody>();
-        m_rigidbody.velocity = transform.forward * shotSpeed;
-    }*/
+        timer = 0f;
 
+        var bullet = GameObject.Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+
+        bullet.SetActive(true);
+
+        bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * speed;
+
+        Destroy(bullet, 2.0f);
+    }
 }

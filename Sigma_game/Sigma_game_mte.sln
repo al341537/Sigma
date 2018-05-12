@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma_game_mte", "Assembly-CSharp.csproj", "{06CCB9B3-A12D-98DD-518E-D6CE0EDA4D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sigma_game_mte", "Assembly-CSharp-Editor.csproj", "{584BCF41-32D0-3D57-B4A8-FF1FC3530B23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06CCB9B3-A12D-98DD-518E-D6CE0EDA4D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CCB9B3-A12D-98DD-518E-D6CE0EDA4D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CCB9B3-A12D-98DD-518E-D6CE0EDA4D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CCB9B3-A12D-98DD-518E-D6CE0EDA4D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584BCF41-32D0-3D57-B4A8-FF1FC3530B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584BCF41-32D0-3D57-B4A8-FF1FC3530B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584BCF41-32D0-3D57-B4A8-FF1FC3530B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584BCF41-32D0-3D57-B4A8-FF1FC3530B23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
