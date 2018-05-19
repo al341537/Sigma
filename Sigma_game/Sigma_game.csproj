@@ -345,6 +345,7 @@
     <Compile Include="Assets\Scripts\ChildTriggerTurret.cs" />
     <Compile Include="Assets\Scripts\EnemyCollisions.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyMovementVector.cs" />
     <Compile Include="Assets\Scripts\GravityAttractor.cs" />
     <Compile Include="Assets\Scripts\GravityBody.cs" />
     <Compile Include="Assets\Scripts\GUIManager.cs" />

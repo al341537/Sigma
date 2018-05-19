@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Intro_menu.unity
+- path: Assets/Scenes/isocaedro.unity
   isLoaded: 1
   isActive: 1
